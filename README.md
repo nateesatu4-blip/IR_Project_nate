@@ -1,9 +1,9 @@
 Information Retrieval Project
-Overview  
+Overview :
 
 This project implements and evaluates multiple Information Retrieval (IR) models using the Cranfield dataset. The goal is to compare different ranking strategies and analyze their effectiveness in retrieving relevant documents.
 
-Models Implemented
+Models Implemented:
 Elasticsearch Built-in (BM25-based),
 TF-IDF,
 BM25,
@@ -13,7 +13,7 @@ Language Model (Jelinek-Mercer Smoothing)
 System Workflow 
 Query → Elasticsearch → Candidate Retrieval → Feature Extraction → Scoring → Ranking → Output → Evaluation
 
-Tools and Technologies
+Tools and Technologies:
 Python,
 Elasticsearch,
 trec_eval Evaluation
@@ -25,9 +25,9 @@ Reciprocal Rank,
 R-Precision
 
 
-Start Elasticsearch 
-Index the dataset: with file name “New_indexing.py
-      3.Run query processing: with “New_Query_processing.py” and  “New_Retrieval_models.py
+1.Start Elasticsearch , 
+2.Index the dataset: with file name “New_indexing.py , 
+      3.Run query processing: with “New_Query_processing.py” and  “New_Retrieval_models.py, 
        4.Evaluate results:
 
 
