@@ -113,7 +113,7 @@ Estimated the corpus probability using ![alt-text](https://latex.codecogs.com/gi
 
 To perform an evaluation, run:
 
-```$ trec_eval [-q] qrel_file results_file```
+```$ trec_eval [-q] qrel_file results_file```a
 
 The ```-q``` option shows a summary average evaluation across all queries, followed by individual evaluation results for each query; without the ```-q``` option, you will see only the summary average. The trec_eval program provides a wealth of statistics about how well the uploaded file did for those queries, including average precision, precision at various recall cut-offs, and so on.
 
